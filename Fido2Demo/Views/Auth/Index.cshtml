@@ -1,0 +1,11 @@
+﻿<div class="container">
+    <h2>FIDO2 Passwordless Login</h2>
+    <input type="text" id="username" class="form-control" placeholder="Enter Username" />
+    <hr />
+    <button onclick="startRegistration()" class="btn btn-primary">Register New Key</button>
+    <button onclick="startLogin()" class="btn btn-success">Login with Key</button>
+</div>
+
+@section Scripts {
+    <script src="~/js/fido2.js"></script>
+}
