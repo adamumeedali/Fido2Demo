@@ -28,3 +28,21 @@ builder.Services.AddFido2(options =>
         "https://localhost:7137"
     };
 });
+
+
+# 📦 NuGet Packages
+
+Install:
+
+```bash
+dotnet add package Fido2
+dotnet add package Fido2.AspNet
+dotnet add package Microsoft.Data.SqlClient
+
+# 🗄️ Database Setup
+
+The SQL table creation script is already included in the project.
+
+📁 Location:
+
+Database/CreateTable.sql
